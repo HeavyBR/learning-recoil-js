@@ -1,10 +1,11 @@
 import React from 'react';
+import { RecoilRoot } from 'recoil';
 
 function App() {
   return (
-    <div className="App">
-     <p>teste</p>
-    </div>
+    <RecoilRoot>
+      <p>teste</p>
+    </RecoilRoot>
   );
 }
 
